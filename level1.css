@@ -3,7 +3,6 @@ body {
   padding: 0;
   font-family: 'Arial', sans-serif;
   background-image: url('./assets/chicken7.png');
-  background-color: #f9f9f9;
 }
 
 #game-container {
@@ -38,7 +37,7 @@ p {
 }
 
 label {
-  color:crimson;
+  color:black;
   display: block;
   margin-bottom: 10px;
 }
@@ -52,7 +51,7 @@ label {
 }
 
 #submit-button {
-  background-color: #4CAF50;
+  background-color: crimson;
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -62,5 +61,6 @@ label {
 }
 
 #submit-button:hover {
-  background-color: #45a049;
+  background-color: #f3c890;
+  color: #000;
 }

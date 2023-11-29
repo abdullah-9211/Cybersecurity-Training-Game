@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('./assets/chicken7.png');
+  }
+  
+  #game-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  #level-2-screen {
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    max-width: 800px;
+  }
+  
+  h1 {
+    color: #f3c890;
+  }
+  
+  p {
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  #cipher-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #cipher-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  #submit-button {
+    background-color: crimson;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #submit-button:hover {
+    background-color: #f3c890;
+    color: black;
+  }
+  
+  #maze-container {
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+.maze-row {
+    display: flex;
+  }
+  
+  .maze-path, .maze-wall {
+    flex: 1;
+    height: 40px;
+    border: 1px solid #ccc;
+  }
+  
+  .maze-path {
+    background-color: #fff;
+  }
+  
+  .maze-wall {
+    background-color: #333;
+  }
+  
+  #hidden-btn{
+    display: none;
+    margin-top: 4px;
+    width: 130px;
+    height: 30px;
+
+  }
