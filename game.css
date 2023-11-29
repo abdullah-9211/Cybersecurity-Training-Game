@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #023020;
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  #game-container {
+    text-align: center;
+    flex-direction: row;
+  }
+  
+  #start-box {
+    padding: 50px;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: auto;
+    display: flex; /* Add this line */
+    flex-direction: row; /* Add this line */
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  #other-box {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 50px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+    flex-direction: column;
+    display: flex; 
+  }
+  
+  button {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1em;
+    padding: 15px 40px;
+    background-color: #900020;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #card-button {
+    width: 300px;
+    height: 380px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1em;
+    padding: 15px 30px; /* Increase the height */
+    background-color: #900020;
+    color: #fff;
+    margin: 20px;
+    border-radius: 12px;
+    justify-content: flex-end;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+  }
+  

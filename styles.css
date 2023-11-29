@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./assets/chicken6.png');
+    background-size:cover;
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  #game-container {
+    text-align: center;
+  }
+  
+  #start-box {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  button {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1em;
+    padding: 10px 20px;
+    background-color: #900020;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
