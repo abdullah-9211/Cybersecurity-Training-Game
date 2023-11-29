@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  $("#cipher-label").text("Decode the phrase: hmnphj symxyn");
+  $("#cipher-label").text("Decode the phrase: jopjrlu kybtzapjrz");
 
   $("#submit-button").click(function() {
     var userInput = $("#cipher-input").val().toLowerCase();
