@@ -1,79 +1,66 @@
 body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #023020;
-    color: #fff;
-    font-family: 'Press Start 2P', cursive;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-image: url('./assets/chicken7.png');
+  background-color: #f9f9f9;
+}
+
+#game-container {
   
-  #game-container {
-    text-align: center;
-    flex-direction: row;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#level-1-screen {
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  color: #fff;
+  max-width: 600px;
+}
+
+h1 {
+  color: #f3c890;
+}
+
+p {
+  color: #f9f9f9;
+  margin-bottom: 20px;
+}
+
+#cipher-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  color:crimson;
+  display: block;
+  margin-bottom: 10px;
+}
+
+#cipher-input {
   
-  #start-box {
-    padding: 50px;
-    border-radius: 10px;
-    max-width: 1000px;
-    margin: auto;
-    display: flex; /* Add this line */
-    flex-direction: row; /* Add this line */
-  }
-  
-  h1 {
-    font-size: 2em;
-    margin-bottom: 20px;
-  }
-  
-  p {
-    font-size: 1.2em;
-    margin-bottom: 30px;
-  }
-  
-  #other-box {
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 50px;
-    border-radius: 10px;
-    max-width: 600px;
-    margin: auto;
-    flex-direction: column;
-    display: flex; 
-  }
-  
-  button {
-    font-family: 'Press Start 2P', cursive;
-    font-size: 1em;
-    padding: 15px 40px;
-    background-color: #900020;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    outline: none;
-    transition: background-color 0.3s;
-  }
-  
-  button:hover {
-    background-color: #45a049;
-  }
-  
-  #card-button {
-    width: 300px;
-    height: 380px;
-    font-family: 'Press Start 2P', cursive;
-    font-size: 1em;
-    padding: 15px 30px; /* Increase the height */
-    background-color: #900020;
-    color: #fff;
-    margin: 20px;
-    border-radius: 12px;
-    justify-content: flex-end;
-    border: none;
-    cursor: pointer;
-    outline: none;
-    transition: background-color 0.3s;
-  }
-  
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+#submit-button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#submit-button:hover {
+  background-color: #45a049;
+}
