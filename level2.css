@@ -29,7 +29,9 @@ body {
   
   #cipher-box {
     background-color: #fff;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 40px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
@@ -87,12 +89,4 @@ body {
   
   .maze-wall {
     background-color: #333;
-  }
-  
-  #hidden-btn{
-    display: none;
-    margin-top: 4px;
-    width: 130px;
-    height: 30px;
-
   }
