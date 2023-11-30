@@ -2,10 +2,30 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Level 5</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cipher Cluck: Two-Factor Authentication</title>
   <link rel="stylesheet" href="level5.css">
 </head>
 <body>
-    Hello World
+
+<div id="game-container">
+  <div id="two-factor-auth-screen">
+    <h1>Two-Factor Authentication Puzzle</h1>
+    <p>A mysterious labyrinth emerged, where both physical and digital challenges awaited. Cluckles faced:</p>
+    <p>Activate two-factor authentication to unlock a door.</p>
+    <div id="auth-container">
+      <label for="username-input">Username:</label>
+      <input type="text" id="username-input" placeholder="Enter your username">
+      <label for="password-input">Password:</label>
+      <input type="password" id="password-input" placeholder="Enter your password">
+      <button id="authenticate-button">Activate Two-Factor Authentication</button>
+    </div>
+    <button id="proceed-button" disabled>Proceed to the Next Challenge</button>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="level5.js"></script>
+
 </body>
 </html>
