@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var dynamicMazeChallenge = "Decode this message to escape the maze: ybire yrgg pbeare juvgr obk";
+    var dynamicMazeChallenge = "Decode this message to escape the maze: ybjre yrsg pbeare juvgr obk";
   
     $("#cipher-label").text(dynamicMazeChallenge);
   

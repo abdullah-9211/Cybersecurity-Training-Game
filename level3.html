@@ -2,10 +2,40 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Cipher Cluck: Level 3</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cipher Cluck: Binary Code Bridge</title>
   <link rel="stylesheet" href="level3.css">
 </head>
 <body>
-    Hello World
+
+<div id="game-container">
+  <div id="binary-code-bridge-screen">
+    <h1>Binary Code Bridge</h1>
+    <p id="white">The road transformed into a magnificent garden, filled with various ciphers blooming like flowers. Now, Cluckles encounters the Binary Code Bridge. Cross the bridge by translating the binary code.</p>
+    <div id="binary-code-container">
+      <label for="binary-code-input">Enter Binary Code: Cluckles</label>
+      <textarea id="binary-code-input" placeholder="Enter binary code here..."></textarea>
+      <button id="translate-button">Translate</button>
+      <p id="translation-result"></p>
+    </div>
+    <div id="bridge-options">
+      <p id="white">Choose a bridge:</p>
+      <div class="bridge-option" data-bridge="1">
+        <img src="./assets/goat.png" alt="Bridge 1">
+      </div>
+      <div class="bridge-option" data-bridge="2">
+        <img src="./assets/cat.png" alt="Bridge 2">
+      </div>
+      <div class="bridge-option" data-bridge="3">
+        <img src="./assets/racoon.png" alt="Bridge 3">
+      </div>
+    </div>
+    <button id="proceed-button" disabled>Proceed to the Next Challenge</button>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="level3.js"></script>
+
 </body>
 </html>
