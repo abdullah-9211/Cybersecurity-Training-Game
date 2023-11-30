@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('./assets/chicken7.png');
+    margin: 0;
+    padding: 0;
+  }
+  
+  #game-container {
+    /* background-color: #f0f0f0; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #level-4-screen {
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  #challenge-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .challenge {
+    padding: 20px;
+    margin: 20px;
+    background-color: #eee;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .challenge:hover {
+    background-color: #ddd;
+  }
+  
+  .challenge p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .challenge-option {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+  }
+  
+  .challenge-option:hover {
+    opacity: 0.8;
+  }
+  
