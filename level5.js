@@ -1,7 +1,7 @@
 $(document).ready(function() {
     // Simulated credentials (you would dynamically load or generate this)
-    var correctUsername = "cluckles";
-    var correctPassword = "eggs123";
+    var correctUsername = "Murghi";
+    var correctPassword = "There is no treasure";
   
     // Add event listener for the authenticate button
     $("#authenticate-button").click(function() {

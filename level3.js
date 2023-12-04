@@ -1,8 +1,6 @@
 $(document).ready(function() {
-    // Simulated answer for the binary code translation (you would dynamically load or generate this)
-    var binaryCodeAnswer = "01100011 01101100 01110101 01100011 01101011 01101100 01100101 01110011";
+    var binaryCodeAnswer = "goat";
     
-    // Define the correct bridge
     var correctBridge = 1;
 
     // Add event listener for the translate button
@@ -30,7 +28,7 @@ $(document).ready(function() {
       // Check if the correct bridge is chosen
       if (selectedBridge === correctBridge) {
         // Display a success message and enable the proceed button
-        alert("Congratulations! You've successfully crossed the Binary Code Bridge and chose the correct bridge.");
+        alert("Congratulations! You've successfully crossed the Bridge and chose the correct bridge.");
         $("#proceed-button").removeAttr("disabled");
       } else {
         // Display an error message
